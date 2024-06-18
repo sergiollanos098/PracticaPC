@@ -1,0 +1,27 @@
+Componentes básicos ReactNative:
+View= igual a divs solo que en mobile app
+Scrollview=The ScrollView is a generic scrolling container that can contain multiple components and views
+Text=permite entradas de texto para mostrarlas en la app
+TextInput=No hay mucho que explicar pide un text input de algún componente Login o otros
+Image = permite poner imágenes en mobile app
+
+
+Expo Secure store=expo-secure-store provides a way to encrypt and securely store key–value pairs locally on the device. Each Expo project has a separate storage system and has no access to the storage of other Expo projects.
+Similar a local storage usable en React web.
+
+Notificaciones push necesitan permisos del ios o sistema operativo
+
+
+getPermissionsAsync()=da permisos a los sensores
+
+Expo Sensors=
+-Accelerometer, cambios en la aceleración en un espacio tridimensional , sea un movimiento mínimo o vibración (necesita permisos)(all platforms)
+  -Barometer, te da información sobre los cambios de presión en el aire medido en hPa (hectopascales)(necesita permisos)(Android ,ios)
+  -DeviceMotion, Sensores de orientación según los 3 ejes principales xyz utiliza las g's como unidad de medida ósea ejemplo: 0.8g i +
+	0.4 j + 0.2z (necesita permisos) (all platforms)
+  -Gyroscope, muestra los cambios en la rotación no velocidad ni aceleración , cambios en la rotación tri-dimensional (necesita permisos)(Android ,ios)
+  -LightSensor, muestra cambios en la iluminación (necesita permisos) (all platforms)
+ - Magnetometer, muestra los cambios en el campo magnético medido en micro tesla (μT) (necesita permisos)(Android ,ios)
+  -Pedometer, muestra los pasos del usuario (necesita permisos)(Android ,ios)
+
+
